@@ -6,7 +6,6 @@ body {
 }
 
 /* TopNav*/
-
 .topNav {
   margin-left: 20px;
   margin-right: 20px;
@@ -21,13 +20,13 @@ body {
   margin: 0%;
 }
 
-.linkTopNav{
+.linkTopNav {
   font-size: 20px;
   text-decoration: none;
   color: white;
 }
 
-.logo{
+.logo {
   font-size: 30px;
 }
 /* Nav */
@@ -45,7 +44,6 @@ body {
 .navLinks {
   display: flex;
   justify-content: rigth;
-  width: 500px;
 }
 
 .link {
@@ -63,7 +61,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: end;
-  width: 300px;
   font-size: 20px;
 }
 
@@ -73,7 +70,7 @@ body {
   padding: 20px;
 }
 
-button {
+.button {
   padding: 6px;
   width: 80px;
   border-radius: 2px;
@@ -81,8 +78,83 @@ button {
   transition: transform 0.2s ease-in-out;
 }
 
-button:hover {
+.button:hover {
   background-color: white;
   cursor: pointer;
   transform: scale(0.9);
+}
+
+/* MainConent */
+
+.slider-wrapper {
+  max-width: 1500px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 500px;
+  width: 100%;
+  margin: auto;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 4px;
+  padding-right: 4px;
+  position: relative;
+}
+
+.slider-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 0.5s ease-in-out;
+  border-radius: 6px;
+}
+
+.slider-wrapper:hover .left-arrow {
+  display: block;
+}
+
+.slider-wrapper:hover .right-arrow {
+  display: block;
+}
+
+.left-arrow {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  padding: 0.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.right-arrow {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  padding: 0.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 4px;
+  width: 100%;
+}
+
+.slider-dot {
+  font-size: 2rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.slider-dot:last-child {
+  margin-right: 0;
 }

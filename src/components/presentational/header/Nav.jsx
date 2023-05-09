@@ -21,10 +21,10 @@ const Nav = () => {
 
         <ul className="navButoon">
           <Link to="/">
-            <button type="submit">Book</button>
+            <button className="button"  type="submit">Book</button>
           </Link>
           <Link to="/">
-            <button type="submit">Book</button>
+            <button  className="button" type="submit">Book</button>
           </Link>
         </ul>
       </nav>
