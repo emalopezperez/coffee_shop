@@ -1,0 +1,54 @@
+.banner-container{
+  display: flex;
+  flex-direction: column;
+  width: full;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 8%;
+  gap: 12px;
+  
+}
+
+.banner-top{
+  height: 300px;
+}
+
+.banner-info{
+  height: 100px;
+}
+
+.banner-info h2{
+  color: white;
+  margin-left: 20%;
+  font-size: 30px;
+}
+
+.banner-info span{
+  color: white;
+  margin-left: 20%;
+}
+
+.banner-info-button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 12px;
+}
+
+.banner-info button{
+  padding: 8px;
+  cursor: pointer;
+  margin-right: 20%;
+}
+.conteiner-image{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.img-banner{
+  width: 370px;
+  height: 300px;
+  border-radius: 4px;
+}

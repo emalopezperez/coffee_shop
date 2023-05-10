@@ -2,159 +2,22 @@
 
 body {
   margin: 0 auto;
-  background-color: black;
+  background-color: #010510;
 }
 
-/* TopNav*/
-.topNav {
-  margin-left: 20px;
-  margin-right: 20px;
-  border-bottom: 1px solid white;
-}
-
-.topNav ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px;
-  margin: 0%;
-}
-
-.linkTopNav {
-  font-size: 20px;
-  text-decoration: none;
-  color: white;
-}
-
-.logo {
-  font-size: 30px;
-}
-/* Nav */
+/* Header */
 .header {
   display: flex;
-  justify-content: center;
   align-items: center;
-}
-
-.nav {
-  display: flex;
-  max-width: 1200px;
-}
-
-.navLinks {
-  display: flex;
-  justify-content: rigth;
-}
-
-.link {
-  font-size: 20px;
-  text-decoration: none;
-  color: white;
-  transition: transform 0.2s ease-in-out;
-}
-
-.link:hover {
-  transform: scale(0.9);
-}
-
-.navButoon {
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  font-size: 20px;
-}
-
-.nav ul {
-  display: flex;
-  gap: 30px;
-  padding: 20px;
-}
-
-.button {
-  padding: 6px;
-  width: 80px;
-  border-radius: 2px;
-  background-color: bisque;
-  transition: transform 0.2s ease-in-out;
-}
-
-.button:hover {
-  background-color: white;
-  cursor: pointer;
-  transform: scale(0.9);
-}
-
-/* MainConent */
-
-.slider-wrapper {
-  max-width: 1500px;
   margin-left: 20px;
   margin-right: 20px;
-  height: 500px;
-  width: 100%;
-  margin: auto;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 4px;
-  padding-right: 4px;
-  position: relative;
 }
 
-.slider-image {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  transition: opacity 0.5s ease-in-out;
-  border-radius: 6px;
+h1, h2, h3, ul{
+  font-family: 'Nunito Sans', sans-serif;
 }
 
-.slider-wrapper:hover .left-arrow {
-  display: block;
+p{
+  font-family: 'Roboto', sans-serif;
 }
 
-.slider-wrapper:hover .right-arrow {
-  display: block;
-}
-
-.left-arrow {
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 5px;
-  transform: translateY(-50%);
-  font-size: 2rem;
-  padding: 0.5rem;
-  color: white;
-  cursor: pointer;
-}
-
-.right-arrow {
-  display: none;
-  position: absolute;
-  top: 50%;
-  right: 5px;
-  transform: translateY(-50%);
-  font-size: 2rem;
-  padding: 0.5rem;
-  color: white;
-  cursor: pointer;
-}
-
-.slider-dots {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  top: 4px;
-  width: 100%;
-}
-
-.slider-dot {
-  font-size: 2rem;
-  cursor: pointer;
-  margin-right: 1rem;
-}
-
-.slider-dot:last-child {
-  margin-right: 0;
-}

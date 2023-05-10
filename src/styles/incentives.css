@@ -1,0 +1,46 @@
+
+.incentives-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 30%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 80px;
+  
+}
+
+.column-one {
+  grid-column: 1;
+  width: 450px;
+  height:400px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+}
+
+.column-two {
+  grid-column: 2;
+  width: 450px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.column-two-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center; 
+  margin-top: -300px; 
+}
+
+.column-one-h2 {
+  font-size: 40px;
+}
+
+.column-two-image{
+  width: 450px;
+  height: 400px;
+}
+

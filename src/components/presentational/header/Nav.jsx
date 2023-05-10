@@ -1,3 +1,4 @@
+import "../../../styles/nav.css";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
@@ -18,16 +19,15 @@ const Nav = () => {
             Contact
           </Link>
         </ul>
-
-        <ul className="navButoon">
-          <Link to="/">
-            <button className="button"  type="submit">Book</button>
-          </Link>
-          <Link to="/">
-            <button  className="button" type="submit">Book</button>
-          </Link>
-        </ul>
       </nav>
+
+      <ul className="navButton">
+        <Link to="/">
+          <button className="button" type="submit">
+            Carta
+          </button>
+        </Link>
+      </ul>
     </header>
   );
 };

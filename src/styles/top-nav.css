@@ -1,0 +1,24 @@
+.topNav {
+  margin-left: 50px;
+  margin-right: 50px;
+  border-bottom: 1px solid white;
+  height: 50px;
+}
+
+.topNav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 0%;
+}
+
+.linkTopNav {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  font-size: 30px;
+}
